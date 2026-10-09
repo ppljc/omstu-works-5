@@ -1,0 +1,29 @@
+@lab3_HostAddress = http://localhost:5236
+
+GET {{lab3_HostAddress}}/api/Cars/
+Accept: application/json
+
+###
+
+GET {{lab3_HostAddress}}/api/Cars/1
+Accept: application/json
+
+###
+
+GET {{lab3_HostAddress}}/api/Cars/101
+Accept: application/json
+
+###
+
+GET {{lab3_HostAddress}}/api/Dealers/
+Accept: application/json
+
+###
+
+GET {{lab3_HostAddress}}/api/Dealers/1
+Accept: application/json
+
+###
+
+GET {{lab3_HostAddress}}/api/Dealers/100
+Accept: application/json

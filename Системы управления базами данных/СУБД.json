@@ -1,0 +1,1295 @@
+{
+  "version": "32.0.2",
+  "pages": [
+    {
+      "id": "GLFsd_D4vlLuvi2Lco_6",
+      "name": "Страница-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Монета"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-2",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-3",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-2",
+          "label": "PK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-4",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-2",
+          "label": "Код монеты"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-5",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-6",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-5"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-7",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-5",
+          "label": "Название"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-8",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-9",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-8",
+          "label": "FK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-10",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-8",
+          "label": "Код страны"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-11",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-12",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-11"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-13",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-11",
+          "label": "Год выпуска"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-27",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-28",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-27",
+          "label": "FK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-29",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-27",
+          "label": "Код сплава"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-30",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-31",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-30"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-32",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-30",
+          "label": "Тираж"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-33",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-34",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-33"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-35",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-33",
+          "label": "Вес"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-36",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-37",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-36"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-38",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-36",
+          "label": "Каталожная цена"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-39",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-40",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-39"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-41",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-39",
+          "label": "Историческая справка"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-42",
+          "type": "node",
+          "parent": "1",
+          "label": "Коллекционер"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-43",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-44",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-43",
+          "label": "PK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-45",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-43",
+          "label": "Код коллекционера"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-46",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-47",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-46"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-48",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-46",
+          "label": "Фамилия"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-49",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-50",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-49"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-51",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-49",
+          "label": "Имя"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-52",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-53",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-52"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-54",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-52",
+          "label": "Отчество"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-55",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-56",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-55",
+          "label": "AK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-57",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-55",
+          "label": "Номер телефона"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-58",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-59",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-58"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-60",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-58",
+          "label": "Адрес проживания"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-61",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-62",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-61",
+          "label": "FK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-63",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-61",
+          "label": "Код профессии"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-64",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-42"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-65",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-64",
+          "label": "FK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-66",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-64",
+          "label": "Код места работы"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-95",
+          "type": "node",
+          "parent": "1",
+          "label": "Монеты в коллекции"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-96",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-97",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-96",
+          "label": "PK,FK1"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-98",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-96",
+          "label": "Код коллекционера"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-99",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-100",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-99",
+          "label": "PK,FK2"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-101",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-99",
+          "label": "Код монеты"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-102",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-103",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-102"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-104",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-102",
+          "label": "Количество"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-105",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-106",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-105"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-107",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-105",
+          "label": "Оценочная цена"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-108",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-109",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-108",
+          "label": "FK"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-110",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-108",
+          "label": "Код состояния"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-111",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-95"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-112",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-111"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-113",
+          "type": "node",
+          "parent": "_0laSqN8tuw0Ivbpymkk-111",
+          "label": "Дата внесения"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-114",
+          "type": "edge",
+          "parent": "1",
+          "source": "_0laSqN8tuw0Ivbpymkk-96",
+          "target": "_0laSqN8tuw0Ivbpymkk-43"
+        },
+        {
+          "id": "_0laSqN8tuw0Ivbpymkk-116",
+          "type": "edge",
+          "parent": "1",
+          "source": "_0laSqN8tuw0Ivbpymkk-99",
+          "target": "_0laSqN8tuw0Ivbpymkk-2"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-1",
+          "type": "node",
+          "parent": "1",
+          "label": "COINS"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-2",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-3",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-2",
+          "label": "PK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-4",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-2",
+          "label": "coin_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-5",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-6",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-5"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-7",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-5",
+          "label": "coin_title"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-8",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-9",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-8",
+          "label": "FK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-10",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-8",
+          "label": "coin_country_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-11",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-12",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-11"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-13",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-11",
+          "label": "coin_year"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-14",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-15",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-14",
+          "label": "FK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-16",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-14",
+          "label": "coin_alloy_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-17",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-18",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-17"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-19",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-17",
+          "label": "coin_mintage"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-20",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-21",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-20"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-22",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-20",
+          "label": "coin_weight"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-23",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-24",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-23"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-25",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-23",
+          "label": "coin_catalog_price"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-26",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-27",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-26"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-28",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-26",
+          "label": "coin_history"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-29",
+          "type": "node",
+          "parent": "1",
+          "label": "COLLECTORS"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-30",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-31",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-30",
+          "label": "PK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-32",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-30",
+          "label": "collector_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-33",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-34",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-33"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-35",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-33",
+          "label": "collector_last_name"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-36",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-37",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-36"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-38",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-36",
+          "label": "collector_first_name"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-39",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-40",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-39"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-41",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-39",
+          "label": "collector_patronymic"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-42",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-43",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-42",
+          "label": "AK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-44",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-42",
+          "label": "collector_phone"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-45",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-46",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-45"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-47",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-45",
+          "label": "collector_address"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-48",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-49",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-48",
+          "label": "FK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-50",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-48",
+          "label": "collector_profession_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-51",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-29"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-52",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-51",
+          "label": "FK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-53",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-51",
+          "label": "collector_workplace_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-54",
+          "type": "node",
+          "parent": "1",
+          "label": "COLLECTIONS"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-55",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-56",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-55",
+          "label": "PK,FK1"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-57",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-55",
+          "label": "collector_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-58",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-59",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-58",
+          "label": "PK,FK2"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-60",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-58",
+          "label": "coin_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-61",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-62",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-61"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-63",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-61",
+          "label": "collection_quantity"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-64",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-65",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-64"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-66",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-64",
+          "label": "collection_purchase_price"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-67",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-68",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-67",
+          "label": "FK"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-69",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-67",
+          "label": "collection_condition_id"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-70",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-54"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-71",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-70"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-72",
+          "type": "node",
+          "parent": "-rqKFERhYSGkDoSgYbCL-70",
+          "label": "collection_acquisition_date"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-73",
+          "type": "edge",
+          "parent": "1",
+          "source": "-rqKFERhYSGkDoSgYbCL-55",
+          "target": "-rqKFERhYSGkDoSgYbCL-30"
+        },
+        {
+          "id": "-rqKFERhYSGkDoSgYbCL-74",
+          "type": "edge",
+          "parent": "1",
+          "source": "-rqKFERhYSGkDoSgYbCL-58",
+          "target": "-rqKFERhYSGkDoSgYbCL-2"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Сплав"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-2",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-1"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-3",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-2",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-4",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-2",
+          "label": "Код сплава"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-5",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-1"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-6",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-5"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-7",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-5",
+          "label": "Название"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-29",
+          "type": "edge",
+          "parent": "1",
+          "source": "thc3W81oY5kBCYCEr50_-2",
+          "target": "_0laSqN8tuw0Ivbpymkk-27"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-30",
+          "type": "node",
+          "parent": "1",
+          "label": "ALLOYS"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-31",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-30"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-32",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-31",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-33",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-31",
+          "label": "alloy_id"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-34",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-30"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-35",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-34"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-36",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-34",
+          "label": "alloy_title"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-37",
+          "type": "edge",
+          "parent": "1",
+          "source": "thc3W81oY5kBCYCEr50_-31",
+          "target": "-rqKFERhYSGkDoSgYbCL-14"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-38",
+          "type": "node",
+          "parent": "1",
+          "label": "Состояние"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-39",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-38"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-40",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-39",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-41",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-39",
+          "label": "Код состояния"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-42",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-38"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-43",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-42"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-44",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-42",
+          "label": "Название"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-63",
+          "type": "edge",
+          "parent": "1",
+          "source": "_0laSqN8tuw0Ivbpymkk-108",
+          "target": "thc3W81oY5kBCYCEr50_-39"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-71",
+          "type": "node",
+          "parent": "1",
+          "label": "CONDITIONS"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-72",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-71"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-73",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-72",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-74",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-72",
+          "label": "condition_id"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-75",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-71"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-76",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-75"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-77",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-75",
+          "label": "condition_title"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-78",
+          "type": "edge",
+          "parent": "1",
+          "source": "-rqKFERhYSGkDoSgYbCL-67",
+          "target": "thc3W81oY5kBCYCEr50_-72"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-79",
+          "type": "node",
+          "parent": "1",
+          "label": "Профессия"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-80",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-79"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-81",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-80",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-82",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-80",
+          "label": "Код профессии"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-83",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-79"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-84",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-83"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-85",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-83",
+          "label": "Название"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-86",
+          "type": "edge",
+          "parent": "1",
+          "source": "_0laSqN8tuw0Ivbpymkk-61",
+          "target": "thc3W81oY5kBCYCEr50_-80"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-94",
+          "type": "edge",
+          "parent": "1",
+          "source": "thc3W81oY5kBCYCEr50_-88",
+          "target": "_0laSqN8tuw0Ivbpymkk-64"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-87",
+          "type": "node",
+          "parent": "1",
+          "label": "Место работы"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-88",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-87"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-89",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-88",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-90",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-88",
+          "label": "Код места работы"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-91",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-87"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-92",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-91"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-93",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-91",
+          "label": "Название"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-95",
+          "type": "node",
+          "parent": "1",
+          "label": "PROFESSIONS"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-96",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-95"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-97",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-96",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-98",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-96",
+          "label": "profession_id"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-99",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-95"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-100",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-99"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-101",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-99",
+          "label": "profession_title"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-111",
+          "type": "edge",
+          "parent": "1",
+          "source": "thc3W81oY5kBCYCEr50_-103",
+          "target": "-rqKFERhYSGkDoSgYbCL-51"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-102",
+          "type": "node",
+          "parent": "1",
+          "label": "WORKPLACES"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-103",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-102"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-104",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-103",
+          "label": "PK"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-105",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-103",
+          "label": "workplace_id"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-106",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-102"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-107",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-106"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-108",
+          "type": "node",
+          "parent": "thc3W81oY5kBCYCEr50_-106",
+          "label": "workplace_title"
+        },
+        {
+          "id": "thc3W81oY5kBCYCEr50_-110",
+          "type": "edge",
+          "parent": "1",
+          "source": "-rqKFERhYSGkDoSgYbCL-48",
+          "target": "thc3W81oY5kBCYCEr50_-96"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-1",
+          "type": "node",
+          "parent": "1",
+          "label": "Страна"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-2",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-1"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-3",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-2",
+          "label": "PK"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-4",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-2",
+          "label": "Код страны"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-5",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-1"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-6",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-5"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-7",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-5",
+          "label": "Название"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-8",
+          "type": "edge",
+          "parent": "1",
+          "source": "_0laSqN8tuw0Ivbpymkk-8",
+          "target": "0UGqLmKhFqRJTFZoqhk2-2"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-9",
+          "type": "node",
+          "parent": "1",
+          "label": "COUNTRIES"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-10",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-9"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-11",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-10",
+          "label": "PK"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-12",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-10",
+          "label": "country_id"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-13",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-9"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-14",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-13"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-15",
+          "type": "node",
+          "parent": "0UGqLmKhFqRJTFZoqhk2-13",
+          "label": "country_title"
+        },
+        {
+          "id": "0UGqLmKhFqRJTFZoqhk2-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "0UGqLmKhFqRJTFZoqhk2-10",
+          "target": "-rqKFERhYSGkDoSgYbCL-8"
+        }
+      ]
+    }
+  ]
+}
