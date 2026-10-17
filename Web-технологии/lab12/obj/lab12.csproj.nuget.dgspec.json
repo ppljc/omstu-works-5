@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj": {}
+    "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj": {
+    "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
+        "projectUniqueName": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
         "projectName": "lab12",
-        "projectPath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
+        "projectPath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
         "packagesPath": "C:\\Users\\ppljc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\obj\\",
+        "outputPath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ppljc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.303/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

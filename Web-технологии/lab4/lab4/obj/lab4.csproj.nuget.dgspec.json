@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj": {}
+    "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj": {
+    "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
+        "projectUniqueName": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
         "projectName": "lab4",
-        "projectPath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
+        "projectPath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
         "packagesPath": "C:\\Users\\ppljc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\obj\\",
+        "outputPath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ppljc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.303/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6wMiS9pN944=",
+  "dgSpecHash": "jquIWS+Tg14=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
+  "projectFilePath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab12\\lab12.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ppljc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\ppljc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",

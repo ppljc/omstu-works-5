@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MySqlConnector;
 
 namespace lab4;
 
@@ -12,7 +13,7 @@ public class CarsController : ControllerBase
     {
         _repository = repository;
     }
-    
+
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Car>>> GetAll()
     {
@@ -24,7 +25,7 @@ public class CarsController : ControllerBase
     public async Task<ActionResult<Car>> GetById(int id)
     {
         var car = await _repository.GetById(id);
-        
+
         if (car is null)
         {
             return NotFound();
@@ -46,12 +47,22 @@ public class CarsController : ControllerBase
             Price = request.Price,
             DealerId = request.DealerId
         };
-        
-        var newCar = await _repository.Create(car);
 
-        return CreatedAtAction(nameof(GetById), new { id = newCar.Id }, newCar);
+        try
+        {
+            var newCar = await _repository.Create(car);
+
+            return CreatedAtAction(nameof(GetById), new { id = newCar.Id }, newCar);
+        }
+        catch (MySqlException ex) when (ex.Number == 1452) // no dealer
+        {
+            return BadRequest(new
+            {
+                message = $"DealerID '{request.DealerId}' doesnt exist."
+            });
+        }
     }
-    
+
     [HttpPut("{id:int}")]
     public async Task<ActionResult<Car>> Update(int id, UpdateCarRequest request)
     {
@@ -67,12 +78,22 @@ public class CarsController : ControllerBase
             DealerId = request.DealerId
         };
 
-        if (await _repository.Update(car))
+        try
         {
-            return Ok(car);
-        }
+            if (await _repository.Update(car))
+            {
+                return Ok(car);
+            }
 
-        return NotFound();
+            return NotFound();
+        }
+        catch (MySqlException ex) when (ex.Number == 1452) // no dealer
+        {
+            return BadRequest(new
+            {
+                message = $"DealerID '{request.DealerId}' doesnt exist."
+            });
+        }
     }
 
     [HttpDelete("{id:int}")]

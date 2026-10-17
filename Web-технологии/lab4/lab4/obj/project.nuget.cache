@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gsTHcapn0a8=",
+  "dgSpecHash": "lMC3G2saB0o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ppljc\\Documents\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
+  "projectFilePath": "C:\\Users\\ppljc\\omstu-works-5\\Web-технологии\\lab4\\lab4\\lab4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ppljc\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
     "C:\\Users\\ppljc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",

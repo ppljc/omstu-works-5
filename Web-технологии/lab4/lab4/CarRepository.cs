@@ -70,7 +70,7 @@ public class CarRepository
         return null;
     }
 
-    public async Task<Car> Create(Car car)
+    public async Task<Car> Create(Car car) // bad request если дилера нет
     {
         await using var connection = new MySqlConnection(_connectionString);
         await connection.OpenAsync();
@@ -99,7 +99,7 @@ public class CarRepository
         return car;
     }
 
-    public async Task<bool> Update(Car car)
+    public async Task<bool> Update(Car car) // Добавить bad request на отсутствующего дилера
     {
         await using var connection = new MySqlConnection(_connectionString);
         await connection.OpenAsync();
@@ -126,7 +126,7 @@ public class CarRepository
         return rowsAffected > 0;
     }
 
-    public async Task<bool> Delete(int id)
+    public async Task<bool> Delete(int id) // bad request если у дилера есть машины
     {
         await using var connection = new MySqlConnection(_connectionString);
         await connection.OpenAsync();

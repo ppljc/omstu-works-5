@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MySqlConnector;
 
 namespace lab4;
 
@@ -12,7 +13,7 @@ public class DealersController : ControllerBase
     {
         _repository = repository;
     }
-    
+
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Dealer>>> GetAll()
     {
@@ -24,7 +25,7 @@ public class DealersController : ControllerBase
     public async Task<ActionResult<Dealer>> GetById(int id)
     {
         var dealer = await _repository.GetById(id);
-        
+
         if (dealer is null)
         {
             return NotFound();
@@ -32,7 +33,7 @@ public class DealersController : ControllerBase
 
         return Ok(dealer);
     }
-    
+
     [HttpPost]
     public async Task<ActionResult<Dealer>> Create(CreateDealerRequest request)
     {
@@ -44,12 +45,12 @@ public class DealersController : ControllerBase
             Area = request.Area,
             Rating = request.Rating
         };
-        
+
         var newDealer = await _repository.Create(dealer);
 
         return CreatedAtAction(nameof(GetById), new { id = newDealer.Id }, newDealer);
     }
-    
+
     [HttpPut("{id:int}")]
     public async Task<ActionResult<Car>> Update(int id, UpdateDealerRequest request)
     {
@@ -74,11 +75,21 @@ public class DealersController : ControllerBase
     [HttpDelete("{id:int}")]
     public async Task<ActionResult> Delete(int id)
     {
-        if (await _repository.Delete(id))
+        try
         {
-            return NoContent();
-        }
+            if (await _repository.Delete(id))
+            {
+                return NoContent();
+            }
 
-        return NotFound();
+            return NotFound();
+        }
+        catch (MySqlException ex) when (ex.Number == 1451) // on delete restrict
+        {
+            return Conflict(new
+            {
+                message = $"Cannot delete dealer with ID {id}: it has related cars."
+            });
+        }
     }
 }
