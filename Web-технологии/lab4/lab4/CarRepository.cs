@@ -140,4 +140,19 @@ public class CarRepository
 
         return rowsAffected > 0;
     }
+
+    public async Task<int> CountByDealerId(int dealerId)
+    {
+        await using var connection = new MySqlConnection(_connectionString);
+        await connection.OpenAsync();
+
+        const string sql = @"SELECT COUNT(*) FROM cars WHERE dealer_id = @dealer_id";
+
+        await using var command = new MySqlCommand(sql, connection);
+        command.Parameters.AddWithValue("@dealer_id", dealerId);
+
+        var count = await command.ExecuteScalarAsync();
+
+        return Convert.ToInt32(count);
+    }
 }

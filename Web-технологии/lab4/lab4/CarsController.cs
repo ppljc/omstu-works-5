@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MySqlConnector;
 
 namespace lab4;
 
@@ -8,10 +7,12 @@ namespace lab4;
 public class CarsController : ControllerBase
 {
     private readonly CarRepository _repository;
+    private readonly DealerRepository _dealerRepository;
 
-    public CarsController(CarRepository repository)
+    public CarsController(CarRepository repository, DealerRepository dealerRepository)
     {
         _repository = repository;
+        _dealerRepository = dealerRepository;
     }
 
     [HttpGet]
@@ -37,6 +38,14 @@ public class CarsController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<Car>> Create(CreateCarRequest request)
     {
+        if (await _dealerRepository.GetById(request.DealerId) is null)
+        {
+            return BadRequest(new
+            {
+                message = $"DealerID '{request.DealerId}' doesnt exist."
+            });
+        }
+
         var car = new Car()
         {
             Firm = request.Firm,
@@ -48,24 +57,22 @@ public class CarsController : ControllerBase
             DealerId = request.DealerId
         };
 
-        try
-        {
-            var newCar = await _repository.Create(car);
+        var newCar = await _repository.Create(car);
 
-            return CreatedAtAction(nameof(GetById), new { id = newCar.Id }, newCar);
-        }
-        catch (MySqlException ex) when (ex.Number == 1452) // no dealer
+        return CreatedAtAction(nameof(GetById), new { id = newCar.Id }, newCar);
+    }
+
+    [HttpPut("{id:int}")]
+    public async Task<ActionResult<Car>> Update(int id, UpdateCarRequest request)
+    {
+        if (await _dealerRepository.GetById(request.DealerId) is null)
         {
             return BadRequest(new
             {
                 message = $"DealerID '{request.DealerId}' doesnt exist."
             });
         }
-    }
 
-    [HttpPut("{id:int}")]
-    public async Task<ActionResult<Car>> Update(int id, UpdateCarRequest request)
-    {
         var car = new Car()
         {
             Firm = request.Firm,
@@ -78,22 +85,12 @@ public class CarsController : ControllerBase
             DealerId = request.DealerId
         };
 
-        try
+        if (await _repository.Update(car))
         {
-            if (await _repository.Update(car))
-            {
-                return Ok(car);
-            }
+            return Ok(car);
+        }
 
-            return NotFound();
-        }
-        catch (MySqlException ex) when (ex.Number == 1452) // no dealer
-        {
-            return BadRequest(new
-            {
-                message = $"DealerID '{request.DealerId}' doesnt exist."
-            });
-        }
+        return NotFound();
     }
 
     [HttpDelete("{id:int}")]

@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MySqlConnector;
 
 namespace lab4;
 
@@ -8,10 +7,12 @@ namespace lab4;
 public class DealersController : ControllerBase
 {
     private readonly DealerRepository _repository;
+    private readonly CarRepository _carRepository;
 
-    public DealersController(DealerRepository repository)
+    public DealersController(DealerRepository repository, CarRepository carRepository)
     {
         _repository = repository;
+        _carRepository = carRepository;
     }
 
     [HttpGet]
@@ -52,7 +53,7 @@ public class DealersController : ControllerBase
     }
 
     [HttpPut("{id:int}")]
-    public async Task<ActionResult<Car>> Update(int id, UpdateDealerRequest request)
+    public async Task<ActionResult<Dealer>> Update(int id, UpdateDealerRequest request)
     {
         var dealer = new Dealer()
         {
@@ -75,21 +76,19 @@ public class DealersController : ControllerBase
     [HttpDelete("{id:int}")]
     public async Task<ActionResult> Delete(int id)
     {
-        try
-        {
-            if (await _repository.Delete(id))
-            {
-                return NoContent();
-            }
-
-            return NotFound();
-        }
-        catch (MySqlException ex) when (ex.Number == 1451) // on delete restrict
+        if (await _carRepository.CountByDealerId(id) > 0)
         {
             return Conflict(new
             {
                 message = $"Cannot delete dealer with ID {id}: it has related cars."
             });
         }
+
+        if (await _repository.Delete(id))
+        {
+            return NoContent();
+        }
+
+        return NotFound();
     }
 }
