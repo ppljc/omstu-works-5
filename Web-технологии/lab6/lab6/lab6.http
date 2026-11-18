@@ -1,0 +1,38 @@
+@lab6_HostAddress = http://localhost:5182
+
+### Список автомобилей
+GET {{lab6_HostAddress}}/api/cars
+Accept: application/json
+
+### Создание автомобиля -> событие CREATE
+POST {{lab6_HostAddress}}/api/cars
+Content-Type: application/json
+
+{
+  "firm": "Toyota",
+  "model": "Camry",
+  "year": 2018,
+  "power": 178,
+  "color": "Red",
+  "price": 25000,
+  "dealerId": 1
+}
+
+### Изменение автомобиля -> событие UPDATE
+PUT {{lab6_HostAddress}}/api/cars/1
+Content-Type: application/json
+
+{
+  "firm": "Toyota",
+  "model": "Camry",
+  "year": 2018,
+  "power": 181,
+  "color": "White",
+  "price": 26000,
+  "dealerId": 1
+}
+
+### Удаление автомобиля -> событие DELETE
+DELETE {{lab6_HostAddress}}/api/cars/72
+
+###
