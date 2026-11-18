@@ -1,0 +1,63 @@
+@Garage.Api_HostAddress = http://localhost:5223
+
+### Список автомобилей (с фильтрами)
+GET {{Garage.Api_HostAddress}}/api/cars
+### Поиск и фильтр по статусу
+GET {{Garage.Api_HostAddress}}/api/cars?search=audi&status=OnTheRoad
+
+### Автомобиль по id
+GET {{Garage.Api_HostAddress}}/api/cars/1
+
+### Создание автомобиля
+POST {{Garage.Api_HostAddress}}/api/cars
+Content-Type: application/json
+
+{
+  "make": "Audi",
+  "model": "A4",
+  "year": 2019,
+  "vin": "WAUZZZ8K9LA012345",
+  "mileage": 85000,
+  "status": "OnTheRoad"
+}
+
+### Обновление автомобиля
+PUT {{Garage.Api_HostAddress}}/api/cars/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "make": "Audi",
+  "model": "A4",
+  "year": 2019,
+  "vin": "WAUZZZ8K9LA012345",
+  "mileage": 90000,
+  "status": "InRepair"
+}
+
+### Удаление автомобиля
+DELETE {{Garage.Api_HostAddress}}/api/cars/1
+
+### История обслуживания автомобиля
+GET {{Garage.Api_HostAddress}}/api/cars/1/services
+
+### Добавление записи об обслуживании
+POST {{Garage.Api_HostAddress}}/api/cars/1/services
+Content-Type: application/json
+
+{
+  "workType": "Замена масла",
+  "date": "2026-10-15",
+  "mileage": 90000,
+  "cost": 6500,
+  "notes": "Масло 5W-30, фильтр"
+}
+
+### Удаление записи об обслуживании
+DELETE {{Garage.Api_HostAddress}}/api/services/1
+
+### Отчёт по затратам (весь гараж за период)
+GET {{Garage.Api_HostAddress}}/api/reports/expenses?from=2026-01-01&to=2026-12-31
+
+### Отчёт по затратам на конкретный автомобиль
+GET {{Garage.Api_HostAddress}}/api/reports/expenses?carId=1

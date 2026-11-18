@@ -1,0 +1,187 @@
+:root {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: #1c2333;
+  background: #f2f4f8;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+.app { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+
+header h1 { margin: 0 0 4px; }
+header p { margin: 0 0 20px; color: #667; }
+
+.layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e3e7ee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.sidebar { position: sticky; top: 16px; }
+
+.filters { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+
+input, select, button {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid #ccd3de;
+  border-radius: 8px;
+}
+
+button {
+  cursor: pointer;
+  background: #fff;
+}
+
+button.primary { background: #4f7cff; border-color: #4f7cff; color: #fff; }
+button.primary:hover { background: #3d68e0; }
+button.danger { color: #c0392b; border-color: #e3b6b0; }
+button.danger:hover { background: #fdeceb; }
+button.small { padding: 4px 8px; font-size: 0.85em; }
+
+.actions { display: flex; gap: 8px; margin-top: 12px; }
+
+.car-list { list-style: none; margin: 0; padding: 0; }
+
+.car-item {
+  padding: 10px 12px;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.car-item:hover { border-color: #4f7cff; }
+.car-item.selected { border-color: #4f7cff; background: #eef3ff; }
+
+.car-title { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.car-meta { color: #667; font-size: 0.9em; margin-top: 4px; }
+
+.badge { font-size: 0.8em; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.badge.ok { background: #e3f6e8; color: #1d7a38; }
+.badge.warn { background: #fdf1dc; color: #9a6b00; }
+.badge.muted { background: #eceff3; color: #667; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin: 10px 0;
+}
+
+label { display: flex; flex-direction: column; gap: 4px; font-size: 0.9em; color: #445; }
+label input, label select { width: 100%; }
+
+.mono { font-family: Consolas, monospace; letter-spacing: 0.05em; }
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.section-header h2, .section-header h3 { margin: 0; }
+.section-header button { margin-left: 8px; }
+
+.props { display: flex; flex-wrap: wrap; gap: 24px; margin: 8px 0 0; }
+.props div { display: flex; flex-direction: column; }
+.props dt { color: #667; font-size: 0.85em; }
+.props dd { margin: 2px 0 0; font-weight: 600; }
+
+.table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.table th, .table td { text-align: left; padding: 8px; border-bottom: 1px solid #eceff3; }
+.table th { color: #667; font-size: 0.85em; }
+.notes { color: #889; font-size: 0.85em; }
+
+.total { margin-top: 12px; }
+
+.period { display: flex; align-items: center; gap: 6px; }
+
+.chart-wrap { margin-top: 8px; }
+
+.error {
+  background: #fdeceb;
+  border: 1px solid #e3b6b0;
+  color: #a0291c;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.notice {
+  background: #e3f6e8;
+  border: 1px solid #b9e4c6;
+  color: #1d7a38;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+}
+
+.empty { color: #889; }
+.dismiss { font-size: 0.85em; text-decoration: underline; }
+
+/* --- Миниатюра в списке автомобилей --- */
+.thumb {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.thumb.placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef1f6;
+  font-size: 24px;
+}
+
+.car-title { gap: 10px; }
+.car-title strong { flex: 1; }
+
+/* --- Галерея фото --- */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.photo-item {
+  margin: 0;
+  border: 1px solid #e3e7ee;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.photo-item figcaption {
+  padding: 6px;
+  text-align: right;
+  background: #fafbfd;
+}

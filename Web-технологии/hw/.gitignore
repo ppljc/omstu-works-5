@@ -1,0 +1,22 @@
+# --- .NET ---
+backend/**/bin/
+backend/**/obj/
+backend/**/.vs/
+*.user
+
+# --- Node ---
+frontend/node_modules/
+frontend/dist/
+
+# --- Секреты и локальные настройки ---
+appsettings.*.local.json
+.env
+.env.*
+!.env.example
+
+# --- Загруженные фото (хранятся на диске, в Git не коммитим) ---
+backend/Garage.Api/uploads/
+
+# --- Прочее ---
+.vscode/
+*.log
